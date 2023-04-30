@@ -1,6 +1,6 @@
 ---
 title: Absenteeism2
-emoji:😂
+emoji: 😂
 colorFrom: pink
 colorTo: gray
 sdk: streamlit
