@@ -1,3 +1,4 @@
+---
 title: Absenteeism2
 
 emoji:😂
@@ -15,3 +16,4 @@ app_file: app.py
 pinned: false
 
 license: cc-by-nc-sa-3.0
+---
