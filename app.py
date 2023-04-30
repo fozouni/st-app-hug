@@ -12,14 +12,14 @@ from absenteeism_module import *
 ################################################################
 
 def Input_Output():
-    data = st.file_uploader("فایل خود را در این قسمت آپلود نمائید", type={"csv", "txt"})
+    data = st.file_uploader("Please Upload Your File Here", type={"csv", "txt"})
     if data is not None:
         df = pd.read_csv(data)
         st.write(df)
         
         model = absenteeism_model('model', 'scaler')
 
-        model.load_and_clean_data('Absenteeism_new_data.csv')
+        model.load_and_clean_data(df)
 
     result = ""
     if st.button("Click here to Predict"):
