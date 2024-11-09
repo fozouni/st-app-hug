@@ -8,3 +8,4 @@ streamlit==1.40.0
 uri-template==1.2.0
 webcolors==1.13
 wincertstore==0.2
+numpy
